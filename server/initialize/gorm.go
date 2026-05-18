@@ -5,7 +5,9 @@ import (
 
 	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
+	"github.com/flipped-aurora/gin-vue-admin/server/model/pcfarm"
 	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	pcfarmSource "github.com/flipped-aurora/gin-vue-admin/server/source/pcfarm"
 
 	"go.uber.org/zap"
 	"gorm.io/gorm"
@@ -71,6 +73,11 @@ func RegisterTables() {
 		example.ExaFileChunk{},
 		example.ExaFileUploadAndDownload{},
 		example.ExaAttachmentCategory{},
+
+		pcfarm.ServerAsset{},
+		pcfarm.IPPool{},
+		pcfarm.IPAllocation{},
+		pcfarm.ProvisionEvent{},
 	)
 	if err != nil {
 		global.GVA_LOG.Error("register table failed", zap.Error(err))
@@ -81,6 +88,10 @@ func RegisterTables() {
 
 	if err != nil {
 		global.GVA_LOG.Error("register biz_table failed", zap.Error(err))
+		os.Exit(0)
+	}
+	if err = pcfarmSource.SyncPcfarmAccessWithGlobalDB(); err != nil {
+		global.GVA_LOG.Error("sync pcfarm access failed", zap.Error(err))
 		os.Exit(0)
 	}
 	global.GVA_LOG.Info("register table success")

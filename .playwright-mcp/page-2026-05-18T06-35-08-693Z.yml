@@ -1,0 +1,34 @@
+- generic [ref=e1]:
+  - img
+  - generic [ref=e81]:
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]: 管理员密码
+        - textbox "管理员密码" [ref=e109]:
+          - /placeholder: admin账号的默认密码
+          - text: "123456"
+      - generic [ref=e110]:
+        - generic [ref=e111]: 数据库类型
+        - generic [ref=e114] [cursor=pointer]:
+          - generic:
+            - combobox "数据库类型" [ref=e116]
+            - generic [ref=e117]: sqlite
+          - img [ref=e120]
+      - generic [ref=e146]:
+        - generic [ref=e147]: dbName
+        - textbox "dbName" [ref=e151]:
+          - /placeholder: 请输入数据库名称
+          - text: pcfarm
+      - generic [ref=e168]:
+        - generic [ref=e169]: dbPath
+        - textbox "dbPath" [ref=e173]:
+          - /placeholder: 请输入sqlite数据库文件存放路径
+          - text: db
+      - button "立即初始化" [active] [ref=e155] [cursor=pointer]:
+        - generic [ref=e156]: 立即初始化
+    - img "banner" [ref=e101]
+  - generic [ref=e3]:
+    - generic "Toggle devtools panel" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - generic "Toggle Component Inspector" [ref=e71] [cursor=pointer]:
+      - img [ref=e72]

@@ -1,0 +1,40 @@
+[   59224ms] [LOG] %c powered by %c flipped-aurorae %c background:#0081ff; padding: 1px; border-radius: 3px 0 0 3px; color: #fff background:#354855; padding: 1px 5px; border-radius: 0 3px 3px 0; color: #fff; font-weight: bold; background:transparent @ http://localhost:8080/src/components/bottomInfo/bottomInfo.vue:23
+[  481647ms] [LOG] 所有可用的本地图标: ai-gva, close, customer-gva, idea, lock, server, warn @ http://localhost:8080/src/core/global.js:51
+[  481647ms] [LOG] 
+       欢迎使用 Gin-Vue-Admin
+       当前版本:v2.9.2
+       加群方式:微信：shouzi_1994 QQ群：622360840
+       项目地址：https://github.com/flipped-aurora/gin-vue-admin
+       插件市场:https://plugin.gin-vue-admin.com
+       GVA讨论社区:https://support.qq.com/products/371961
+       默认自动化文档地址:http://127.0.0.1:8888/swagger/index.html
+       默认前端文件运行地址:http://127.0.0.1:8080
+       如果项目让您获得了收益，希望您能请团队喝杯可乐:https://www.gin-vue-admin.com/coffee/index.html
+       --------------------------------------版权声明--------------------------------------
+       ** 版权所有方：flipped-aurora开源团队 **
+       ** 版权持有公司：北京翻转极光科技有限责任公司 **
+       ** 剔除授权标识需购买商用授权：https://plugin.gin-vue-admin.com/license **
+       ** 感谢您对Gin-Vue-Admin的支持与关注 合法授权使用更有利于项目的长久发展**
+     @ http://localhost:8080/src/core/gin-vue-admin.js:11
+[  481660ms] [LOG] 🍍 "router" store installed 🆕 @ http://localhost:8080/node_modules/.vite/deps/pinia.js?v=86c383da:169
+[  481687ms] [LOG] %c powered by %c flipped-aurorae %c background:#0081ff; padding: 1px; border-radius: 3px 0 0 3px; color: #fff background:#354855; padding: 1px 5px; border-radius: 0 3px 3px 0; color: #fff; font-weight: bold; background:transparent @ http://localhost:8080/src/components/bottomInfo/bottomInfo.vue:23
+[  485830ms] [LOG] %c powered by %c flipped-aurorae %c background:#0081ff; padding: 1px; border-radius: 3px 0 0 3px; color: #fff background:#354855; padding: 1px 5px; border-radius: 0 3px 3px 0; color: #fff; font-weight: bold; background:transparent @ http://localhost:8080/src/components/bottomInfo/bottomInfo.vue:23
+[  525108ms] [LOG] 所有可用的本地图标: ai-gva, close, customer-gva, idea, lock, server, warn @ http://localhost:8080/src/core/global.js:51
+[  525108ms] [LOG] 
+       欢迎使用 Gin-Vue-Admin
+       当前版本:v2.9.2
+       加群方式:微信：shouzi_1994 QQ群：622360840
+       项目地址：https://github.com/flipped-aurora/gin-vue-admin
+       插件市场:https://plugin.gin-vue-admin.com
+       GVA讨论社区:https://support.qq.com/products/371961
+       默认自动化文档地址:http://127.0.0.1:8888/swagger/index.html
+       默认前端文件运行地址:http://127.0.0.1:8080
+       如果项目让您获得了收益，希望您能请团队喝杯可乐:https://www.gin-vue-admin.com/coffee/index.html
+       --------------------------------------版权声明--------------------------------------
+       ** 版权所有方：flipped-aurora开源团队 **
+       ** 版权持有公司：北京翻转极光科技有限责任公司 **
+       ** 剔除授权标识需购买商用授权：https://plugin.gin-vue-admin.com/license **
+       ** 感谢您对Gin-Vue-Admin的支持与关注 合法授权使用更有利于项目的长久发展**
+     @ http://localhost:8080/src/core/gin-vue-admin.js:11
+[  525115ms] [LOG] 🍍 "router" store installed 🆕 @ http://localhost:8080/node_modules/.vite/deps/pinia.js?v=86c383da:169
+[  525256ms] [LOG] %c powered by %c flipped-aurorae %c background:#0081ff; padding: 1px; border-radius: 3px 0 0 3px; color: #fff background:#354855; padding: 1px 5px; border-radius: 0 3px 3px 0; color: #fff; font-weight: bold; background:transparent @ http://localhost:8080/src/components/bottomInfo/bottomInfo.vue:23

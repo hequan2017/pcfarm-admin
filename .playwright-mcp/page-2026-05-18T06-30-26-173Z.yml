@@ -1,0 +1,52 @@
+- generic [ref=e1]:
+  - img
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e15]:
+        - img "Gin-Vue-Admin" [ref=e17]
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: Gin-Vue-Admin
+          - paragraph [ref=e20]: A management platform using Golang and Vue
+        - generic [ref=e21]:
+          - generic [ref=e25]:
+            - textbox "请输入用户名" [ref=e26]: admin
+            - img [ref=e29]
+          - textbox "请输入密码" [ref=e35]
+          - generic [ref=e38]:
+            - textbox "请输入验证码" [ref=e41]
+            - img "请输入验证码" [ref=e43]
+          - button "登 录" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: 登 录
+          - button "前往初始化" [active] [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: 前往初始化
+      - img "banner" [ref=e53]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - text: Powered by
+        - link "Gin-Vue-Admin" [ref=e57] [cursor=pointer]:
+          - /url: https://github.com/flipped-aurora/gin-vue-admin
+      - generic [ref=e58]:
+        - link "文档" [ref=e59] [cursor=pointer]:
+          - /url: https://www.gin-vue-admin.com/
+          - img "文档" [ref=e60]
+        - link "客服" [ref=e61] [cursor=pointer]:
+          - /url: https://support.qq.com/product/371961
+          - img "客服" [ref=e62]
+        - link "github" [ref=e63] [cursor=pointer]:
+          - /url: https://github.com/flipped-aurora/gin-vue-admin
+          - img "github" [ref=e64]
+        - link "视频站" [ref=e65] [cursor=pointer]:
+          - /url: https://space.bilibili.com/322210472
+          - img "视频站" [ref=e66]
+      - generic [ref=e67]:
+        - text: Copyright
+        - link "flipped-aurora团队" [ref=e69] [cursor=pointer]:
+          - /url: https://github.com/flipped-aurora
+  - generic [ref=e3]:
+    - generic "Toggle devtools panel" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - generic "Toggle Component Inspector" [ref=e71] [cursor=pointer]:
+      - img [ref=e72]
+  - alert [ref=e76]:
+    - img [ref=e78]
+    - paragraph [ref=e80]: 已配置数据库信息，无法初始化
